@@ -2,8 +2,14 @@
 # https://github.com/theovanrooij/Secu_Donnee_TP1
 
 
+
+# Réponses aux questions : 
+
 # Q1 : A partir d'une lettre à encodée et d'une lettre issue de la clé, on réalise un décalage
 # afin de changer la valeur de la lettre
+
+# Q7 : Pour des fichiers volumineux, le temps de codage est important et ne semble surement pas pertinent.
+# Je ne connais en revanche pas le temps des autres algorithmes donc cet algorithme peu finalement etre adapté.
 
 from collections import deque
 import string
@@ -275,3 +281,5 @@ if __name__ == '__main__':
             pass
     else :
         print("Veuillez sélectionner un mode valide parmis e (encodage) et d (décodage)")
+
+
